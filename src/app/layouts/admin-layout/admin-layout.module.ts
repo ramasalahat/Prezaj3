@@ -1,3 +1,5 @@
+import { AnEmployeeComponent } from '../../pages/an-employee/an-employee.component';
+import { MaterialModule } from './material/material.module';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
@@ -11,25 +13,37 @@ import { EmployeesComponent }       from '../../pages/employees/employees.compon
 import { TasksComponent }           from './../../pages/tasks/tasks.component';
 import { BundlesComponent }         from './../../pages/bundles/bundles.component';
 import { MessagesComponent }        from './../../pages/messages/messages.component';
+import { AddComponent } from '../../pages/employees/add/add.component';
 
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatDialogModule} from '@angular/material' ;
+
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
-    NgbModule
+    NgbModule,
+    MatDialogModule,
+    MaterialModule,
+
   ],
+  entryComponents:[AddComponent],
+  
   declarations: [
     DashboardComponent,
     UserComponent,
     EmployeesComponent,
     BundlesComponent,
     TasksComponent,
-    MessagesComponent
-  ]
+    MessagesComponent,
+    AddComponent,    
+    AnEmployeeComponent,
+
+    
+      ]
 })
 
 export class AdminLayoutModule {}

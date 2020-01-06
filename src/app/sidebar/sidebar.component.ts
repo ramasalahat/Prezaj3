@@ -10,7 +10,6 @@ export interface RouteInfo {
 
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard',     title: 'Dashboard',         icon:'nc-bank',       class: '' },
-    { path: '/user',          title: 'User Profile',      icon:'nc-single-02',  class: '' },
     { path: '/bundles',     title: 'Bundles',         icon:'nc-box-2',       class: '' },
     { path: '/tasks',     title: 'Tasks',         icon:'nc-paper',       class: '' },
     { path: '/employees',     title: 'Employees',         icon:'nc-hat-3',       class: '' },
