@@ -1,4 +1,9 @@
-import { AnEmployeeComponent } from '../../pages/an-employee/an-employee.component';
+import { MyLineChartComponent } from './../../pages/an-employee/my-line-chart/my-line-chart.component';
+import { EditProfileComponent } from './../../pages/an-employee/edit-profile/edit-profile.component';
+import { TasksAndBundlesComponent } from './../../pages/an-employee/tasks-and-bundles/tasks-and-bundles.component';
+import { FilterByComponent } from './../../pages/filter-by/filter-by.component';
+import { Employeechart1Component } from '../../pages/an-employee/employeechart1/employeechart1.component';
+import { AnEmployeeComponent } from './../../pages/an-employee/an-employee.component';
 import { MaterialModule } from './material/material.module';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -18,6 +23,7 @@ import { AddComponent } from '../../pages/employees/add/add.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatDialogModule} from '@angular/material' ;
+import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -28,7 +34,7 @@ import {MatDialogModule} from '@angular/material' ;
     NgbModule,
     MatDialogModule,
     MaterialModule,
-
+    ChartsModule,
   ],
   entryComponents:[AddComponent],
   
@@ -41,7 +47,11 @@ import {MatDialogModule} from '@angular/material' ;
     MessagesComponent,
     AddComponent,    
     AnEmployeeComponent,
-
+    Employeechart1Component,
+    FilterByComponent,
+    TasksAndBundlesComponent,
+    EditProfileComponent,
+    MyLineChartComponent
     
       ]
 })

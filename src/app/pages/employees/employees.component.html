@@ -1,15 +1,15 @@
 <div class="container ">
     <div class="row">
-      <div class="col-md-2">.col-md-2</div>
-      <div class="col-md-10">
-          <div class="row">
-            <div class="col-md-9">  
+      <div class="col-2">
+        <filter-by></filter-by>
+      </div>
+            <div class="col-md-8">  
                 <input class="form-control" type="text" placeholder="Search" aria-label="Search">
             </div>
-            <div class="col-md-3"> 
+            <div class="col-md-2"> 
               <button type="button" class="btn btn-primary" (click)="openDialog()">Add Employee</button>            
             </div>
-          </div>
+    </div>
           <div class="row">
             <div class="col-md-12">
               
@@ -20,124 +20,132 @@
                     <div class="row">
 
                       <!-- Grid column -->
-                      <div class=" col-lg-3 col-md-6 mb-lg-0 mb-5" routerLink="employees/1">
-                        <div class="avatar mx-auto">
+                      <div class=" card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar w-100 h-100 mx-auto" >
                           <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
                         </div>
+                      </a>
                         <h5 class="font-weight-bold mt-4 mb-3">Anna Williams</h5>
                         <p class="text-uppercase blue-text"><strong>FrontEnd Developer</strong></p>
                       </div>
                       <!-- Grid column -->
                   
                       <!-- Grid column -->
-                      <div class=" col-lg-3 col-md-6 mb-lg-0 mb-5" routerLink="employees/1">
-                        <div class="avatar mx-auto">
+                      <div class=" card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar w-100 h-100 mx-auto" >
                           <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
                         </div>
+                        </a>
                         <h5 class="font-weight-bold mt-4 mb-3">John Doe</h5>
                         <p class="text-uppercase blue-text"><strong>Backend developer</strong></p>
                         </div>
                       <!-- Grid column -->
                   
                       <!-- Grid column -->
-                      <div class=" col-lg-3 col-md-6 mb-md-0 mb-5" routerLink="employees/1">
-                        <div class="avatar mx-auto">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle z-depth-1"
-                            alt="Sample avatar">
+                      <div class=" card col-lg-3 col-md-4 col-sm-6 pb-4 " >
+                        <a routerLink="/employees/1">
+                        <div class="avatar w-100 h-100 mx-auto" >
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
                         </div>
+                        </a>
                         <h5 class="font-weight-bold mt-4 mb-3">Maria Smith</h5>
                         <p class="text-uppercase blue-text"><strong>Photographer</strong></p>
                         </div>
                       <!-- Grid column -->
                   
                       <!-- Grid column -->
-                      <div class=" col-lg-3 col-md-6" routerLink="employees/1">
-                        <div class="avatar mx-auto">
+                      <div class=" card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar w-100 h-100 mx-auto" >
                           <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1"
                             alt="Sample avatar">
                         </div>
+                        </a>
                         <h5 class="font-weight-bold mt-4 mb-3">Tom Adams</h5>
                         <p class="text-uppercase blue-text"><strong>Designer</strong></p>
                         </div>
                       <!-- Grid column -->
-                      <div class="col-lg-3 col-md-4 col-sm-6 pb-4" routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                      <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                        </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Alan Turing</h5>
                           <p class="text-uppercase blue-text"><strong>Backend developer</strong></p>
-                          </div>
+                          
                       </div>
             
-                      <div class="col-lg-3 col-md-4 col-sm-6 pb-4" routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                      <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                      </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Tom Johnson</h5>
                           <p class="text-uppercase blue-text"><strong>Front developer</strong></p>
-                          </div>
                       </div>
             
-                      <div class="col-lg-3 col-md-4 col-sm-6 pb-4" routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                      <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                        </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Alex Laurie</h5>
                           <p class="text-uppercase blue-text"><strong>Manager</strong></p>
-                          </div>
                       </div>
             
-                      <div class="col-lg-3 col-md-4 col-sm-6 pb-4" routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                      <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                        </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Nathalie Fry</h5>
                           <p class="text-uppercase blue-text"><strong>Design</strong></p>
-                          </div>
                       </div>
             
-                       <div class="col-lg-3 col-md-4 col-sm-6 pb-4" routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                       <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                        </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Emma Lovelace</h5>
                           <p class="text-uppercase blue-text"><strong>Backend developer</strong></p>
-                          </div>
                       </div>
             
-                      <div class="col-lg-3 col-md-4 col-sm-6 pb-4"routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                      <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                        </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Joanna Thompson</h5>
                           <p class="text-uppercase blue-text"><strong>Design</strong></p>
-                          </div>
                       </div>
             
-                      <div class="col-lg-3 col-md-4 col-sm-6 pb-4" routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                      <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                        </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Billy Turner</h5>
                           <p class="text-uppercase blue-text"><strong>Front developer</strong></p>
-                          </div>
                       </div>
             
-                      <div class="col-lg-3 col-md-4 col-sm-6 pb-4" routerLink="employees/1">
-                        <div class="avatar white text-center">
-                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class="img-fluid rounded-circle z-depth-1"/>
+                      <div class="card col-lg-3 col-md-4 col-sm-6 pb-4" >
+                        <a routerLink="/employees/1">
+                        <div class="avatar  w-100 h-100 mx-auto">
+                          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class=" rounded-circle z-depth-1"/>
                         </div>
-                        <div class="text-center mt-2">
+                        </a>
                           <h5 class="font-weight-bold mt-4 mb-3">Veronica Smith</h5>
                           <p class="text-uppercase blue-text"><strong>Photographer</strong></p>
-                          </div>
                       </div>
             
 
@@ -152,8 +160,6 @@
 
           </div>
        </div>
-    </div>
-</div>
 
 
 
