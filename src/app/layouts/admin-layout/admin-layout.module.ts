@@ -1,6 +1,7 @@
 import { SectionsPreformanceChartComponent } from './../../pages/dashboard/preformance-chart/sections-preformance-chart/sections-preformance-chart.component';
 import { PreformanceChartComponent } from './../../pages/dashboard/preformance-chart/preformance-chart.component';
 import { TimelineComponent } from './../../pages/an-employee/timeline/timeline.component';
+import { MyBarChartComponent } from './../../pages/dashboard/charts/my-bar-chart/my-bar-chart.component';
 import { MyLineChartComponent } from './../../pages/an-employee/my-line-chart/my-line-chart.component';
 import { EditProfileComponent } from './../../pages/an-employee/edit-profile/edit-profile.component';
 import { TasksAndBundlesComponent } from './../../pages/an-employee/tasks-and-bundles/tasks-and-bundles.component';
@@ -27,6 +28,7 @@ import { AddComponent } from '../../pages/employees/add/add.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatDialogModule} from '@angular/material' ;
 import { ChartsModule } from 'ng2-charts';
+import { MyDoughnutChartComponent } from 'app/pages/dashboard/charts/my-doughnut-chart/my-doughnut-chart.component';
 
 
 @NgModule({
@@ -58,7 +60,9 @@ import { ChartsModule } from 'ng2-charts';
     TimelineComponent,
     PreformanceChartComponent,
     DashboardComponent,
-    SectionsPreformanceChartComponent
+    SectionsPreformanceChartComponent,
+    MyBarChartComponent,
+    MyDoughnutChartComponent,
 
       ]
 })
