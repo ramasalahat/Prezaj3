@@ -26,6 +26,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatDialogModule} from '@angular/material' ;
 import { ChartsModule } from 'ng2-charts';
 import { MyDoughnutChartComponent } from 'app/pages/dashboard/charts/my-doughnut-chart/my-doughnut-chart.component';
+import { TopempComponent } from 'app/pages/dashboard/g_com/topemp/topemp.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { MyDoughnutChartComponent } from 'app/pages/dashboard/charts/my-doughnut
     MatDialogModule,
     MaterialModule,
     ChartsModule,
+    TopempComponent
   ],
   entryComponents:[AddComponent],
   
