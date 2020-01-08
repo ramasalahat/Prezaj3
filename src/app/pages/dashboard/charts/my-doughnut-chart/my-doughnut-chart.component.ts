@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartType } from 'chart.js';
-import { Label, MultiDataSet } from 'ng2-charts';
+import { Color, Label, MultiDataSet } from 'ng2-charts';
 
 @Component({
   selector: 'my-doughnut-chart',
@@ -9,13 +9,19 @@ import { Label, MultiDataSet } from 'ng2-charts';
 })
 export class MyDoughnutChartComponent implements OnInit {
 
-  public doughnutChartLabels: Label[] = ['Budget', 'profit', 'salary'];
+  public doughnutChartLabels: Label[] = ['Software', 'Web', 'AI&Games'];
   public doughnutChartData: MultiDataSet = [
     [350, 450, 100],
     [50, 150, 120],
     [250, 130, 70],
   ];
   public doughnutChartType: ChartType = 'doughnut';
+  public lineChartColors: Color[] = [
+    {
+      borderColor: 'black',
+      backgroundColor: 'rgba(0,0,0,0.3)',
+    },
+  ];
 
   constructor() { }
 
