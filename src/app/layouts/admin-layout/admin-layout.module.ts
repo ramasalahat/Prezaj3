@@ -1,3 +1,5 @@
+import { Section3ChartComponent } from './../../pages/dashboard/preformance-chart/section3-chart/section3-chart.component';
+import { Section2ChartComponent } from './../../pages/dashboard/preformance-chart/section2-chart/section2-chart.component';
 import { SectionsPreformanceChartComponent } from './../../pages/dashboard/preformance-chart/sections-preformance-chart/sections-preformance-chart.component';
 import { PreformanceChartComponent } from './../../pages/dashboard/preformance-chart/preformance-chart.component';
 import { TimelineComponent } from './../../pages/an-employee/timeline/timeline.component';
@@ -63,6 +65,9 @@ import { MyDoughnutChartComponent } from 'app/pages/dashboard/charts/my-doughnut
     SectionsPreformanceChartComponent,
     MyBarChartComponent,
     MyDoughnutChartComponent,
+    Section2ChartComponent,
+    Section3ChartComponent,
+
 
       ]
 })

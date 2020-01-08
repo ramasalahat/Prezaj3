@@ -3,11 +3,12 @@ import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Color, Label, SingleDataSet, BaseChartDirective } from 'ng2-charts';
 
 @Component({
-  selector: 'sections-preformance-chart',
-  templateUrl: './sections-preformance-chart.component.html',
-  styleUrls: ['./sections-preformance-chart.component.css']
+  selector: 'section3-chart',
+  templateUrl: './section3-chart.component.html',
+  styleUrls: ['./section3-chart.component.css']
 })
-export class SectionsPreformanceChartComponent implements OnInit {
+export class Section3ChartComponent implements OnInit {
+
   
   public pieChartOptions: ChartOptions = {
     responsive: true,
@@ -15,9 +16,9 @@ export class SectionsPreformanceChartComponent implements OnInit {
   };
   public lineChartData: ChartDataSets[] = [
     { data: [65, 59, 60, 70, 75, 70, 87], label: 'Preformance' },
-    { data: [50, 59, 80, 60, 40, 60, 70], label: 'Commitment' },
     { data: [65, 80, 88, 80, 75, 82, 82], label: 'Reviews' },
-  ];
+    { data: [50, 59, 80, 60, 40, 60, 70], label: 'Commitment' },
+];
   public lineChartLabels: Label[] = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
   public lineChartOptions: ChartOptions = {
     responsive: true,

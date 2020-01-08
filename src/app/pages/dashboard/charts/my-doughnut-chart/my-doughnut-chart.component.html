@@ -1,10 +1,15 @@
 
+<div class = "card" >
+  <div class="card-body">
+    <canvas baseChart width="100%" height="100%"
+      [data]="doughnutChartData"
+      [labels]="doughnutChartLabels"
+      [chartType]="doughnutChartType">
+    </canvas>
+    <small>Inner Circle: Budget <br>
+      Middle Circle: Profit <br>
+      Outter Circle: Salary </small>
 
-<div class = "doughnut " >
-  <br>
-  <canvas baseChart
-    [data]="doughnutChartData"
-    [labels]="doughnutChartLabels"
-    [chartType]="doughnutChartType">
-  </canvas>
+  </div>
+
 </div>
