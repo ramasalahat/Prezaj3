@@ -1,7 +1,10 @@
+import { SectionsPreformanceChartComponent } from './../../pages/dashboard/preformance-chart/sections-preformance-chart/sections-preformance-chart.component';
+import { PreformanceChartComponent } from './../../pages/dashboard/preformance-chart/preformance-chart.component';
+import { TimelineComponent } from './../../pages/an-employee/timeline/timeline.component';
 import { MyLineChartComponent } from './../../pages/an-employee/my-line-chart/my-line-chart.component';
 import { EditProfileComponent } from './../../pages/an-employee/edit-profile/edit-profile.component';
 import { TasksAndBundlesComponent } from './../../pages/an-employee/tasks-and-bundles/tasks-and-bundles.component';
-import { FilterByComponent } from './../../pages/filter-by/filter-by.component';
+import { FilterByComponent } from '../../pages/employees/filter-by/filter-by.component';
 import { Employeechart1Component } from '../../pages/an-employee/employeechart1/employeechart1.component';
 import { AnEmployeeComponent } from './../../pages/an-employee/an-employee.component';
 import { MaterialModule } from './material/material.module';
@@ -51,8 +54,12 @@ import { ChartsModule } from 'ng2-charts';
     FilterByComponent,
     TasksAndBundlesComponent,
     EditProfileComponent,
-    MyLineChartComponent
-    
+    MyLineChartComponent,
+    TimelineComponent,
+    PreformanceChartComponent,
+    DashboardComponent,
+    SectionsPreformanceChartComponent
+
       ]
 })
 
