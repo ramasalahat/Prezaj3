@@ -1,8 +1,11 @@
+import { SectionsPreformanceChartComponent } from './../../pages/dashboard/preformance-chart/sections-preformance-chart/sections-preformance-chart.component';
+import { PreformanceChartComponent } from './../../pages/dashboard/preformance-chart/preformance-chart.component';
+import { TimelineComponent } from './../../pages/an-employee/timeline/timeline.component';
 import { MyBarChartComponent } from './../../pages/dashboard/charts/my-bar-chart/my-bar-chart.component';
 import { MyLineChartComponent } from './../../pages/an-employee/my-line-chart/my-line-chart.component';
 import { EditProfileComponent } from './../../pages/an-employee/edit-profile/edit-profile.component';
 import { TasksAndBundlesComponent } from './../../pages/an-employee/tasks-and-bundles/tasks-and-bundles.component';
-import { FilterByComponent } from './../../pages/filter-by/filter-by.component';
+import { FilterByComponent } from '../../pages/employees/filter-by/filter-by.component';
 import { Employeechart1Component } from '../../pages/an-employee/employeechart1/employeechart1.component';
 import { AnEmployeeComponent } from './../../pages/an-employee/an-employee.component';
 import { MaterialModule } from './material/material.module';
@@ -10,6 +13,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import {MatIconModule} from '@angular/material/icon'
 
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
@@ -38,7 +42,7 @@ import { TopempComponent } from 'app/pages/dashboard/g_com/topemp/topemp.compone
     MatDialogModule,
     MaterialModule,
     ChartsModule,
-    TopempComponent
+    MatIconModule
   ],
   entryComponents:[AddComponent],
   
@@ -56,9 +60,13 @@ import { TopempComponent } from 'app/pages/dashboard/g_com/topemp/topemp.compone
     TasksAndBundlesComponent,
     EditProfileComponent,
     MyLineChartComponent,
+    TimelineComponent,
+    PreformanceChartComponent,
+    DashboardComponent,
+    SectionsPreformanceChartComponent,
     MyBarChartComponent,
-    MyDoughnutChartComponent
-    
+    MyDoughnutChartComponent,
+    TopempComponent
       ]
 })
 

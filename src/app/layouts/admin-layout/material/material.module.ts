@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import{MatButtonModule,
 MatDialogModule,
+MatTabsModule,
 
 } from '@angular/material'
 
@@ -19,7 +20,9 @@ const MaterialComponents=[
   MatCardModule,
   MatProgressBarModule,
   MatInputModule,
-  MatFormFieldModule
+  MatFormFieldModule,
+  MatTabsModule,
+  
 ]
 @NgModule({
   imports: [MaterialComponents],

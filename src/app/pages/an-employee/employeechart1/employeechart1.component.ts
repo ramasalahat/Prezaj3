@@ -12,7 +12,7 @@ export class Employeechart1Component implements OnInit {
   public radarChartOptions: ChartOptions = {
     responsive: true,
   };
-  public radarChartLabels: Label[] = ['Databases', 'React', 'Angular', 'Algorithems', 'AI', 'VR', 'Design'];
+  public radarChartLabels: Label[] = ['Databases', 'React', 'Angular', 'Design', 'AI', 'VR', 'Design'];
 
   public radarChartData: ChartDataSets[] = [
     { data: [65, 59, 90, 81, 56, 55, 40], label: 'Skills' },
