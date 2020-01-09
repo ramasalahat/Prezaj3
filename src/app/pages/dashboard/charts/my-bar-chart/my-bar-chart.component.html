@@ -1,15 +1,15 @@
 
+    <div  >
+      <canvas
+      baseChart width="100%" height="100%"
+        [datasets]="barChartData" 
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [plugins]="barChartPlugins"
+        [legend]="barChartLegend"
+        [chartType]="barChartType"
+        [colors]="ChartColors">
+        >
+      </canvas>
+    </div>
 
-<div style="border-style: dashed; margin-top: 5%;" >
-
-  <div style="border-style: solid;">
-  <canvas
-   baseChart 
-    [datasets]="barChartData" 
-    [labels]="barChartLabels"
-    [options]="barChartOptions"
-    [plugins]="barChartPlugins"
-    [legend]="barChartLegend"
-    [chartType]="barChartType">
-  </canvas>
-</div>

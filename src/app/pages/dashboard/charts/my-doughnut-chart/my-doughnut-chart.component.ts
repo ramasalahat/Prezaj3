@@ -16,12 +16,13 @@ export class MyDoughnutChartComponent implements OnInit {
     [250, 130, 70],
   ];
   public doughnutChartType: ChartType = 'doughnut';
-  public lineChartColors: Color[] = [
-    {
-      borderColor: 'black',
-      backgroundColor: 'rgba(0,0,0,0.3)',
-    },
+
+  public doughnutChartColors: Color[] = [
+    {backgroundColor: ['#EF8157', '#FBC658', '#66615B',]},
+    {backgroundColor: ['#EF8157', '#FBC658', '#66615B',]},
+    {backgroundColor: ['#EF8157', '#FBC658', '#66615B',]}
   ];
+
 
   constructor() { }
 
