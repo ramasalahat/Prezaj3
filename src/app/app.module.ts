@@ -17,7 +17,6 @@ import { ChartsModule } from 'ng2-charts';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-
       
   ],
   imports: [
