@@ -1,3 +1,7 @@
+import { SkillsNeededChartComponent } from '../../pages/dashboard/charts/skills-needed-chart/skills-needed-chart.component';
+import { DashHoverTimelineComponent } from '../../pages/dashboard/dash-hover-timeline/dash-hover-timeline.component';
+import { TasksTableComponent } from '../../pages/dashboard/tasks-table/tasks-table.component';
+import { CardsComponent } from '../../pages/dashboard/cards/cards.component';
 import { Section3ChartComponent } from './../../pages/dashboard/preformance-chart/section3-chart/section3-chart.component';
 import { Section2ChartComponent } from './../../pages/dashboard/preformance-chart/section2-chart/section2-chart.component';
 import { SectionsPreformanceChartComponent } from './../../pages/dashboard/preformance-chart/sections-preformance-chart/sections-preformance-chart.component';
@@ -71,9 +75,11 @@ import { MyScatterChartComponent } from 'app/pages/dashboard/charts/my-scatter-c
     Section2ChartComponent,
     Section3ChartComponent,
     ComtypeComponent,
-    MyScatterChartComponent
-
-
+    MyScatterChartComponent,
+    CardsComponent,
+    TasksTableComponent,
+    DashHoverTimelineComponent,
+    SkillsNeededChartComponent,
 
       ]
 })
