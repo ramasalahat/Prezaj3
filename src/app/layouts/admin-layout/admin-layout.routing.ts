@@ -1,3 +1,4 @@
+import { ABundleComponent } from './../../pages/bundles/bundle_detail/a-bundle/a-bundle.component';
 import { AnEmployeeComponent } from '../../pages/an-employee/an-employee.component';
 import { MessagesComponent } from '../../pages/messages/messages.component';
 import { Routes } from '@angular/router';
@@ -15,8 +16,10 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'employees',  component: EmployeesComponent },
     { path: 'bundles',  component: BundlesComponent },
     { path: 'tasks',  component: TasksComponent },
-    { path: 'messages',  component: AnEmployeeComponent },
+    { path: 'messages',  component: MessagesComponent },
     { path: 'employees/1',   component: AnEmployeeComponent },
+    { path: 'bundles/1',   component: ABundleComponent },
+
 
 
 ];
