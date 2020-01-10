@@ -68,21 +68,4 @@
     border-radius: 5%;
 }
  
-    .scrollbar-ripe-malinka::-webkit-scrollbar {
-    width: 12px;
-    background-color: #F5F5F5; }
-    
-    .scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: lightgray;;
-   }
-    
    
-    .thin::-webkit-scrollbar {
-    width: 10px; }
-    
-    .example-1 {
-    position: relative;
-    overflow-y: scroll;
-    height: 700px; }

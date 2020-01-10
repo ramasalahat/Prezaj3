@@ -31,6 +31,8 @@ import { MyDoughnutChartComponent } from 'app/pages/dashboard/charts/my-doughnut
 import { TopempComponent } from 'app/pages/dashboard/g_com/topemp/topemp.component';
 import { ComtypeComponent } from 'app/pages/dashboard/g_com/topemp/comtype/comtype.component';
 import { MyScatterChartComponent } from 'app/pages/dashboard/charts/my-scatter-chart/my-scatter-chart.component';
+import { ABundleComponent } from 'app/pages/bundles/bundle_detail/a-bundle/a-bundle.component';
+
 
 
 
@@ -71,8 +73,8 @@ import { MyScatterChartComponent } from 'app/pages/dashboard/charts/my-scatter-c
     Section2ChartComponent,
     Section3ChartComponent,
     ComtypeComponent,
-    MyScatterChartComponent
-
+    MyScatterChartComponent,
+    ABundleComponent,
 
 
       ]
