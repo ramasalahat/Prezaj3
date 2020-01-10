@@ -24,7 +24,7 @@ export class MyBarChartComponent implements OnInit {
         }]
       }
   };
-  public barChartLabels: Label[] =  ['Total Budget' , 'Used Budget'];
+  public barChartLabels: Label[] =  ['Total' , 'Spent'];
   public barChartType: ChartType = 'bar';
   public barChartLegend = true;
   public barChartPlugins = [];
