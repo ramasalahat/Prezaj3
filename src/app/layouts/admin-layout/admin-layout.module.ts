@@ -1,3 +1,8 @@
+import { BundlesCardsComponent } from './../../bundles-cards/bundles-cards.component';
+import { TaskInfoComponent } from './../../task-info/task-info.component';
+import { ModalComponent } from './../../modal/modal.component';
+import { SearchComponent } from './../../pages/tasks/search/search.component';
+import { Task1Component } from './../../pages/tasks/task1/task1.component';
 import { MyLineChartComponent } from './../../pages/an-employee/my-line-chart/my-line-chart.component';
 import { EditProfileComponent } from './../../pages/an-employee/edit-profile/edit-profile.component';
 import { TasksAndBundlesComponent } from './../../pages/an-employee/tasks-and-bundles/tasks-and-bundles.component';
@@ -51,7 +56,12 @@ import { ChartsModule } from 'ng2-charts';
     FilterByComponent,
     TasksAndBundlesComponent,
     EditProfileComponent,
-    MyLineChartComponent
+    MyLineChartComponent,
+    Task1Component,
+    SearchComponent,
+    ModalComponent,
+    TaskInfoComponent,
+    BundlesCardsComponent
     
       ]
 })
