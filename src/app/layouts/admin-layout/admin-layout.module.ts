@@ -1,3 +1,4 @@
+import { AddTaskComponent } from '../../pages/tasks/add-task/add-task.component';
 
 import { BundlesCardsComponent } from './../../bundles-cards/bundles-cards.component';
 import { TaskInfoComponent } from './../../task-info/task-info.component';
@@ -99,6 +100,7 @@ import { ABundleComponent } from 'app/pages/bundles/bundle_detail/a-bundle/a-bun
     TasksTableComponent,
     DashHoverTimelineComponent,
     SkillsNeededChartComponent,
+    AddTaskComponent,
  ]
 
 })
