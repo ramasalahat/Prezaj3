@@ -13,10 +13,24 @@ import { AppRoutes } from './app.routing';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { ChartsModule } from 'ng2-charts';
 
+
+
+
+
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+
+
+    
+   
+    
+
       
   ],
   imports: [

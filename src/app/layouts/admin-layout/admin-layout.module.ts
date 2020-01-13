@@ -1,3 +1,10 @@
+
+import { BundlesCardsComponent } from './../../bundles-cards/bundles-cards.component';
+import { TaskInfoComponent } from './../../task-info/task-info.component';
+
+import { SearchComponent } from './../../pages/tasks/search/search.component';
+import { Task1Component } from './../../pages/tasks/task1/task1.component';
+
 import { SkillsNeededChartComponent } from '../../pages/dashboard/charts/skills-needed-chart/skills-needed-chart.component';
 import { DashHoverTimelineComponent } from '../../pages/dashboard/dash-hover-timeline/dash-hover-timeline.component';
 import { TasksTableComponent } from '../../pages/dashboard/tasks-table/tasks-table.component';
@@ -8,6 +15,7 @@ import { SectionsPreformanceChartComponent } from './../../pages/dashboard/prefo
 import { PreformanceChartComponent } from './../../pages/dashboard/preformance-chart/preformance-chart.component';
 import { TimelineComponent } from './../../pages/an-employee/timeline/timeline.component';
 import { MyBarChartComponent } from './../../pages/dashboard/charts/my-bar-chart/my-bar-chart.component';
+
 import { MyLineChartComponent } from './../../pages/an-employee/my-line-chart/my-line-chart.component';
 import { EditProfileComponent } from './../../pages/an-employee/edit-profile/edit-profile.component';
 import { TasksAndBundlesComponent } from './../../pages/an-employee/tasks-and-bundles/tasks-and-bundles.component';
@@ -67,6 +75,14 @@ import { ABundleComponent } from 'app/pages/bundles/bundle_detail/a-bundle/a-bun
     TasksAndBundlesComponent,
     EditProfileComponent,
     MyLineChartComponent,
+
+    Task1Component,
+    SearchComponent,
+    
+    TaskInfoComponent,
+    BundlesCardsComponent,
+    
+
     TimelineComponent,
     PreformanceChartComponent,
     DashboardComponent,
@@ -84,6 +100,7 @@ import { ABundleComponent } from 'app/pages/bundles/bundle_detail/a-bundle/a-bun
     DashHoverTimelineComponent,
     SkillsNeededChartComponent,
  ]
+
 })
 
 export class AdminLayoutModule {}
