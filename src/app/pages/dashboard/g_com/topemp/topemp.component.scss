@@ -1,0 +1,71 @@
+
+
+.header{
+
+    font-size: 23px;
+    font-weight: bold; 
+    display:flex ;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 93%;
+    height: 60px;
+    margin: auto;
+    align-items: center;
+    opacity: .8;
+}
+
+
+.img {
+
+    width: 30%;
+    border-radius: 100%;
+}
+
+.card-stacked {
+    margin: auto;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+     line-height:30px;
+     height: 90px;
+     width: 65%;
+     }
+
+     .viewall{
+        border: 1.5px solid lightgreen; 
+        width: 25%;
+          display: flex;
+    align-items: center;
+    justify-content: center;
+         font-size: 14px;
+
+     }
+
+
+.empname{
+    font-weight: bold;
+    font-size: 17px;
+     display:flex ;
+     justify-content: space-around;
+     flex-direction: row;
+     height: 25px;
+
+}
+
+.empjob{
+     height: 30px;
+     margin-left: 2.5%;
+}
+.card-action{
+    font-size: 12px;
+    font-weight: 300; 
+    display:flex ;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 35%;
+    height: 30px;
+    background-color:  lightgreen ;
+    border-radius: 5%;
+}
+ 
+   

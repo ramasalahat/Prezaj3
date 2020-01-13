@@ -1,0 +1,28 @@
+
+img {
+
+    height: 150px;
+}
+
+
+.company{
+
+  width: 100%;
+    font-size: 23px;
+    font-weight: bold; 
+    display:flex ;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+}
+
+
+.card-stacked{
+    margin: auto;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+     line-height:30px;
+     height: 90px;
+     width: 65%;
+}
