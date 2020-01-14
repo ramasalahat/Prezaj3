@@ -1,3 +1,4 @@
+import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -18,6 +19,7 @@ import { ChartsModule } from 'ng2-charts';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserAnimationsModule,

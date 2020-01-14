@@ -1,4 +1,3 @@
-import { LoginComponent } from './../../login/login.component';
 import { TaskInfoComponent } from '../../pages/tasks/task-info/task-info.component';
 import { ABundleComponent } from './../../pages/bundles/bundle_detail/a-bundle/a-bundle.component';
 import { AnEmployeeComponent } from '../../pages/an-employee/an-employee.component';
@@ -22,7 +21,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'employees/1',   component: AnEmployeeComponent },
     { path: 'bundles/1',   component: ABundleComponent },
     { path: 'tasks/1',   component: TaskInfoComponent },
-    { path: 'login',   component: LoginComponent },
 
 
 
