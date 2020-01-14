@@ -14,14 +14,10 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { ChartsModule } from 'ng2-charts';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-
-
-      
   ],
   imports: [
     BrowserAnimationsModule,

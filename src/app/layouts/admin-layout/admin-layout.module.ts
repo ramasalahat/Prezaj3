@@ -1,7 +1,8 @@
+import { LoginComponent } from './../../login/login.component';
 import { AddTaskComponent } from '../../pages/tasks/add-task/add-task.component';
 
-import { BundlesCardsComponent } from './../../bundles-cards/bundles-cards.component';
-import { TaskInfoComponent } from './../../task-info/task-info.component';
+import { BundlesCardsComponent } from '../../pages/bundles/bundles-cards/bundles-cards.component';
+import { TaskInfoComponent } from '../../pages/tasks/task-info/task-info.component';
 
 import { SearchComponent } from './../../pages/tasks/search/search.component';
 import { Task1Component } from './../../pages/tasks/task1/task1.component';
@@ -83,7 +84,7 @@ import { ABundleComponent } from 'app/pages/bundles/bundle_detail/a-bundle/a-bun
     TaskInfoComponent,
     BundlesCardsComponent,
     
-
+LoginComponent,
     TimelineComponent,
     PreformanceChartComponent,
     DashboardComponent,
