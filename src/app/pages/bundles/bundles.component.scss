@@ -135,17 +135,12 @@ mat-card-title{
     .search_box{
         display: flex;
         justify-content: space-between;
+        width: 150%;
+        margin-left: -240px;
+        margin-top: 4%;
+        margin-bottom: 2%;
     }
 
-
-
-    #sep{
-        margin: auto;
-        width: 50%;
-        height: 1px;
-        background-color: lightblue;
-        
-    }
 
     #FC{
         display: flex;
@@ -160,6 +155,7 @@ mat-card-title{
         border: 1px solid #1E90FF	;
         font-size: 20px;
         border-radius: 5px;
+        height: 40px;
     }
 
 
