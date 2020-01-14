@@ -1,4 +1,3 @@
-import { LoginComponent } from './../../login/login.component';
 import { AddTaskComponent } from '../../pages/tasks/add-task/add-task.component';
 
 import { BundlesCardsComponent } from '../../pages/bundles/bundles-cards/bundles-cards.component';
@@ -84,7 +83,6 @@ import { ABundleComponent } from 'app/pages/bundles/bundle_detail/a-bundle/a-bun
     TaskInfoComponent,
     BundlesCardsComponent,
     
-LoginComponent,
     TimelineComponent,
     PreformanceChartComponent,
     DashboardComponent,
